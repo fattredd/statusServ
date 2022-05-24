@@ -23,4 +23,4 @@ class Reporter:
         if not os.path.isfile(filename):
            return { "status": 404 }
         with open(filename, 'r') as f:
-            return {"status": 200, "data": f.readlines()[-10:]}
+            return {"status": 200, "data": f.read().splitlines()[-10:]}
