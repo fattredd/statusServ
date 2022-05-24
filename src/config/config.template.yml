@@ -3,3 +3,13 @@ port: 5000
 host: 127.0.0.1
 debug: false
 datadir: data
+salt: password_salt
+users:
+  root:
+    perms: rw
+    # 123
+    pass: 768dfab7b1421d80e98d1911643c8e22
+  exampleuser:
+    perms: w
+    # 123
+    pass: 768dfab7b1421d80e98d1911643c8e22
