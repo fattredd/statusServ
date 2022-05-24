@@ -1,4 +1,2 @@
-.venv/
-__pycache__/
 src/config/config.yml
 src/data/
